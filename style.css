@@ -1,0 +1,62 @@
+
+/*css padrao cabeçalho e rodapé*/
+.cabeçalho{
+    width: 100%;
+    background: #ff000067;
+    height: 100px;
+    text-align: center;
+    margin:0 auto;
+}
+.logo{
+    position: absolute;
+    display:inline;
+    width: 10em;
+    left: 5vw;
+    top:0;
+    margin: 15px 0;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.caixa-head{
+    padding:20px;
+    height: 100px;
+    width: 100%;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+.caixa-head h1{
+    width: 20vw;
+}
+.pesquisa{
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    text-align: right;
+    width: 130px;
+    margin: -10px 10vw 0 80vw;
+}
+.pesquisa input{
+    width: 50px;
+    border-radius: 10px;
+    transition: 500ms all;
+}
+.pesquisa input:focus{
+    width: 100px;
+    border-radius: 5px;
+}
+.barra-navegacao{
+    position: relative;
+    display:inline-block;
+    margin:1em auto;
+    text-align: center;
+    width: 40vw;
+    top: 15px;
+
+}
+nav a{
+    margin:0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: UPPERCASE;
+}
