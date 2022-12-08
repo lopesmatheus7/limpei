@@ -1,3 +1,16 @@
+/*fontes padrões limpei*/
+@font-face {
+    font-family: "padrao";
+    src: url(/fonts/Kanit-Regular.ttf) format("truetype") ;
+}
+/*Root aonde modula tudo*/
+:root{
+    font-family: padrao;
+}
+/*CSS mãe*/
+body{
+    font-family: padrao;
+}
 
 /*css padrao cabeçalho e rodapé*/
 .cabeçalho{
@@ -63,9 +76,9 @@ nav a{
 /* rodape */
 .rodape{
     position: fixed;
-    top: calc(100% - 70px);
+    top: calc(100% - 95px);
     width: 100%;
-    height: 70px;
+    height: 95px;
     background:#2ff17a67;
     padding:15px;
 }
@@ -83,6 +96,10 @@ nav a{
 .redes-sociais img{
     width: 40px;
     margin:0 0.2em;
+}
+footer h3{
+    text-align: center;
+    margin: 10px;
 }
 
 /*fim do css padrao cabeçalho e rodapé*/
