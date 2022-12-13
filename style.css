@@ -10,6 +10,10 @@
 /*CSS mãe*/
 body{
     font-family: padrao;
+    background-image: url("imagens/fundo.webp");
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vw;
 }
 
 /*css padrao cabeçalho e rodapé*/
@@ -75,8 +79,6 @@ nav a{
 }
 /* rodape */
 .rodape{
-    position: fixed;
-    top: calc(100% - 95px);
     width: 100%;
     height: 95px;
     background:#2ff17a67;
@@ -102,4 +104,43 @@ footer h3{
     margin: 10px;
 }
 
+
 /*fim do css padrao cabeçalho e rodapé*/
+
+
+
+/*Corpo da página home*/
+main{
+    height: 800px;   
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corposlide{
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgb(113, 113, 236), rgb(149, 235, 149));
+}
+.content{
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow:hidden ;
+    margin-left: 400px;
+    
+}
+main img{
+}
+.apresentacao{
+    margin-right: 10px;
+    margin-left: 200px;
+    margin-top: 10vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+main p, h2{
+    padding: 10px;
+}
